@@ -13,6 +13,19 @@ body {
   box-shadow: 0 0 10px #ddd;
   background-color: #fff;
   padding: 15px;
+
+  /* inline css */
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 870px) {
+  .main-pd-wrapper {
+    width: 100%;
+    font-size: 70%;
+  }
 }
 
 .topper-next {
@@ -36,4 +49,17 @@ body {
   justify-content: space-between;
   /* border: 1px dashed rgb(9, 202, 106); */
   padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  section {
+    width: 100%;
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  section {
+    width: 60%;
+  }
 }
